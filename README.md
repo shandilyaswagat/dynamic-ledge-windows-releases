@@ -23,4 +23,4 @@ Existing ZIP users need this one-time Scoop install. Notes, pins, tasks and pref
 
 You can also download the x64 (Intel/AMD) or ARM64 ZIP under Releases. Portable ZIP copies can check for updates but need Scoop for automatic installation.
 
-These builds are unsigned. Review the bundled testing and compatibility notes before deploying. Binary licensing and third-party notices are bundled with each download. No administrator rights are needed for a normal per-user Scoop install.
+Read Start here.md for installation and Feature guide.md for supported features. Current downloads are unsigned; use only the official website or this repository and keep Windows security enabled. Licensing and third-party notices are bundled with each download. No administrator rights are needed for a normal per-user Scoop install.
