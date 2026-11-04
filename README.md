@@ -24,3 +24,7 @@ Existing ZIP users need this one-time Scoop install. Notes, pins, tasks and pref
 You can also download the x64 (Intel/AMD) or ARM64 ZIP under Releases. Portable ZIP copies can check for updates but need Scoop for automatic installation.
 
 Read Start here.md for installation and Feature guide.md for supported features. Current downloads are unsigned; use only the official website or this repository and keep Windows security enabled. Licensing and third-party notices are bundled with each download. No administrator rights are needed for a normal per-user Scoop install.
+
+## Analytics and privacy
+
+From Windows 0.5.2, Dynamic Ledge sends limited installation, launch, daily activity and update events to TelemetryDeck. Events contain app/Windows versions, architecture, install channel and a random installation identifier hashed before sending. No personal content, account or hardware identifiers, clipboard text, notes, file paths or coding prompts are sent. There is no in-app analytics switch. Read the [Windows privacy policy](Privacy.md) for details.
