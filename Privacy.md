@@ -1,6 +1,6 @@
 # Dynamic Ledge for Windows — privacy
 
-Effective 4 November 2026, starting with Windows version 0.5.2.
+Effective 4 November 2026, starting with Windows version 0.5.2. Manufacturer model reporting starts with 0.5.3.
 
 Dynamic Ledge does not require an account. Notes, tasks, preferences and pinned references stay in your Windows user folder. Unpinned clipboard history stays in memory. Original files are not uploaded by the tray; choosing Windows sharing sends selected items to the recipient or app you choose.
 
@@ -8,7 +8,7 @@ Dynamic Ledge does not require an account. Notes, tasks, preferences and pinned 
 
 Dynamic Ledge sends a small set of lifecycle and update events to [TelemetryDeck](https://telemetrydeck.com/): first launch of a new installation, app launches, daily activity, first launch of a newer version, update availability, update attempts and categorized update/check failures. Analytics is enabled without an in-app switch. There is no screen recording or feature-by-feature activity tracking.
 
-Each event contains its event name and time, app version, Windows 10 or 11, x64 or ARM64 architecture, and whether the copy uses Scoop or a portable ZIP. Update events may include the previous or target app version and a broad failure category such as network, invalid release or installation. Raw error messages are never sent.
+Each event contains its event name and time, app version, Windows 10 or 11, x64 or ARM64 architecture, the shared manufacturer computer model (such as Surface Laptop 5), and whether the copy uses Scoop or a portable ZIP. The model is read once in the background from Windows' manufacturer model property; it is not your custom computer name or a unique device identifier. Missing or invalid model information is reported as Unknown. Update events may include the previous or target app version and a broad failure category such as network, invalid release or installation. Raw error messages are never sent.
 
 A random identifier is created in the app's local data folder and hashed with SHA-256 before sending. It is not derived from your name, email, Windows account, hardware identifiers or account credentials. TelemetryDeck further salts and hashes that value. This identifier lets us count participating installations over time; it does not identify a person, and one person using several PCs may count several times. A daily session identifier and a random event identifier support grouping and duplicate analysis.
 
