@@ -27,4 +27,4 @@ Read Start here.md for installation and Feature guide.md for supported features.
 
 ## Analytics and privacy
 
-From Windows 0.5.2, Dynamic Ledge sends limited installation, launch, daily activity and update events to TelemetryDeck. Events contain app/Windows versions, architecture, install channel and a random installation identifier hashed before sending. No personal content, account or hardware identifiers, clipboard text, notes, file paths or coding prompts are sent. There is no in-app analytics switch. Read the [Windows privacy policy](Privacy.md) for details.
+From Windows 0.5.2, Dynamic Ledge sends limited installation, launch, daily activity and update events to TelemetryDeck. Events contain app/Windows versions, architecture, install channel and a random installation identifier hashed before sending. From 0.5.3, they also include the shared manufacturer computer model, such as Surface Laptop 5. No personal content, account names, custom computer names, unique hardware identifiers, clipboard text, notes, file paths or coding prompts are sent. There is no in-app analytics switch. Read the [Windows privacy policy](Privacy.md) for details.
