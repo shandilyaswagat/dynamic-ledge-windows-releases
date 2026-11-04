@@ -1,17 +1,17 @@
 {
-    "version": "0.4.4",
+    "version": "0.5.0",
     "description": "Music, files and everyday tools in a Windows notch or pill.",
     "homepage": "https://talvioh.vercel.app/ledge.html",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shandilyaswagat/dynamic-ledge-windows-releases/releases/download/v0.4.4/Dynamic-Ledge-Windows-x64.zip",
-            "hash": "e7134923175f61d47cfbfa209ed97f325fbff45a263d13c6c96a0efd183a6879",
+            "url": "https://github.com/shandilyaswagat/dynamic-ledge-windows-releases/releases/download/v0.5.0/Dynamic-Ledge-Windows-x64.zip",
+            "hash": "4bdd9e7f65ddbc1e95ab14ba8c77106f45ee2860a08a81372bc4faca8a2b00f8",
             "extract_dir": "Dynamic-Ledge-Windows-x64"
         },
         "arm64": {
-            "url": "https://github.com/shandilyaswagat/dynamic-ledge-windows-releases/releases/download/v0.4.4/Dynamic-Ledge-Windows-arm64.zip",
-            "hash": "61adec0a7ed1aba44ec16b1124028ff91f76aca28c68075627dc5d1ef208d555",
+            "url": "https://github.com/shandilyaswagat/dynamic-ledge-windows-releases/releases/download/v0.5.0/Dynamic-Ledge-Windows-arm64.zip",
+            "hash": "d8db3530d78eae42d47e7304d5415503a7efe13175e16a20da999e2b0f38b7aa",
             "extract_dir": "Dynamic-Ledge-Windows-arm64"
         }
     },
